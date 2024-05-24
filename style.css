@@ -1,0 +1,52 @@
+*{
+    
+    font-family: 'Poppins',sans-serif;
+    background: #0d1e3a;
+    color: white;
+    text-align: center;
+}
+
+body{
+    margin: 30px;
+    padding:30px;
+}
+
+h1{
+    font-size: large;
+}
+p{
+    font-size: small;
+}
+
+.profile{
+    border-radius: 50%;
+    size: 20;
+}
+
+.btn{
+    display: block;
+    text-decoration: none;
+    padding: 20px 5px;
+    color: black;
+    background: white;
+    margin: 25px;
+    box-shadow: 5px 10px #d1d5da;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #8437f9;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.social-icons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-icon{
+    margin: 5px;
+    cursor: pointer;
+}
